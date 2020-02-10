@@ -1,0 +1,4 @@
+com\salesforce\qa\testcases\ContactPageTest.class
+com\salesforce\qa\testcases\HomePageTest.class
+com\salesforce\qa\testcases\LoginPageTest.class
+com\salesforce\qa\testcases\ProfilePageTest.class

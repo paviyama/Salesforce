@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [SalesForce Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReportListenerNG"/>
+  </listeners>
+  <test name="SalesForce App Test Cases(failed)">
+    <classes>
+      <class name="com.salesforce.qa.testcases.ContactPageTest">
+        <methods>
+          <include name="createnewContactTest" invocation-numbers="0"/>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.salesforce.qa.testcases.ContactPageTest -->
+      <class name="com.salesforce.qa.testcases.ProfilePageTest">
+        <methods>
+          <include name="uploadingPicture"/>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+        </methods>
+      </class> <!-- com.salesforce.qa.testcases.ProfilePageTest -->
+    </classes>
+  </test> <!-- SalesForce App Test Cases(failed) -->
+</suite> <!-- Failed suite [SalesForce Application Test Automation Test Suite] -->
